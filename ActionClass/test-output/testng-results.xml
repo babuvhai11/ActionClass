@@ -1,37 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
       <![CDATA[==landing page open==]]>
     </line>
     <line>
+      <![CDATA[==TC Runed==]]>
+    </line>
+    <line>
+      <![CDATA[===mouse on women module===]]>
+    </line>
+    <line>
+      <![CDATA[==clicked==]]>
+    </line>
+    <line>
       <![CDATA[==Browser Close==]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12132" started-at="2020-06-16T12:29:25 EDT" finished-at="2020-06-16T12:29:37 EDT">
+  <suite name="Default suite" duration-ms="26766" started-at="2020-06-20T21:12:57 EDT" finished-at="2020-06-20T21:13:24 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12132" started-at="2020-06-16T12:29:25 EDT" finished-at="2020-06-16T12:29:37 EDT">
-      <class name="model.Test003">
-        <test-method status="PASS" signature="browserOpen()[pri:0, instance:model.Test003@1c3a4799]" name="browserOpen" is-config="true" duration-ms="10902" started-at="2020-06-16T12:29:25 EDT" finished-at="2020-06-16T12:29:36 EDT">
+    <test name="Default test" duration-ms="26766" started-at="2020-06-20T21:12:57 EDT" finished-at="2020-06-20T21:13:24 EDT">
+      <class name="model.mouseOver01">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:model.mouseOver01@26aa12dd]" name="browserOpen" is-config="true" duration-ms="14547" started-at="2020-06-20T21:12:57 EDT" finished-at="2020-06-20T21:13:12 EDT">
           <reporter-output>
             <line>
               <![CDATA[==landing page open==]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method status="PASS" signature="GitTest()[pri:0, instance:model.Test003@1c3a4799]" name="GitTest" duration-ms="219" started-at="2020-06-16T12:29:36 EDT" finished-at="2020-06-16T12:29:37 EDT">
+        <test-method status="PASS" signature="login()[pri:0, instance:model.mouseOver01@26aa12dd]" name="login" duration-ms="6892" started-at="2020-06-20T21:13:12 EDT" finished-at="2020-06-20T21:13:19 EDT">
           <reporter-output>
+            <line>
+              <![CDATA[==TC Runed==]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- GitTest -->
-        <test-method status="PASS" signature="exBrowser()[pri:0, instance:model.Test003@1c3a4799]" name="exBrowser" is-config="true" duration-ms="917" started-at="2020-06-16T12:29:37 EDT" finished-at="2020-06-16T12:29:37 EDT">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="mouseoverm()[pri:0, instance:model.mouseOver01@26aa12dd]" name="mouseoverm" duration-ms="4196" started-at="2020-06-20T21:13:19 EDT" depends-on-methods="model.mouseOver01.login" finished-at="2020-06-20T21:13:23 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[===mouse on women module===]]>
+            </line>
+            <line>
+              <![CDATA[==clicked==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mouseoverm -->
+        <test-method status="PASS" signature="exBrowser()[pri:0, instance:model.mouseOver01@26aa12dd]" name="exBrowser" is-config="true" duration-ms="1036" started-at="2020-06-20T21:13:23 EDT" finished-at="2020-06-20T21:13:24 EDT">
           <reporter-output>
             <line>
               <![CDATA[==Browser Close==]]>
             </line>
           </reporter-output>
         </test-method> <!-- exBrowser -->
-      </class> <!-- model.Test003 -->
+      </class> <!-- model.mouseOver01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
